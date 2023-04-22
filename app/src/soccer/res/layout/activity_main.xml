@@ -41,6 +41,16 @@
 
         </LinearLayout>
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/news_LA_lottie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:lottie_rawRes="@raw/soccer_lottie"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+
+
     </LinearLayout>
 
 </RelativeLayout>

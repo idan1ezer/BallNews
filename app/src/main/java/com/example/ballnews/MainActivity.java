@@ -5,8 +5,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.Switch;
-
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         "https://img.freepik.com/premium-vector/cute-happy-kid-girl-playing-football-soccer-flat-cartoon-illustration-football-match_442961-26.jpg");
                 a3 = new Article("Ivan Petrovic",
                         "Ivan Petrovic is a tough-tackling center back who is strong in the air and rarely loses a challenge. He is also comfortable with the ball at his feet and can start attacks from the back.",
-                        "https://us.123rf.com/450wm/mickallnice/mickallnice1805/mickallnice180500005/100914570-kid-kicks-a-ball-vector-and-illustration.jpg");
+                        "https://img.freepik.com/premium-vector/cartoon-football-player_591410-129.jpg");
                 break;
             default:
                 a1 = new Article("Luis Hernandez",
