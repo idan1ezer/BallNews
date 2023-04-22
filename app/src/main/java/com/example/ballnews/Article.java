@@ -3,13 +3,15 @@ package com.example.ballnews;
 public class Article {
 
     String title;
-    String image;
+    String content;
+    String imageUrl;
 
     public Article () {}
 
-    public Article (String title, String image) {
+    public Article (String title, String content, String image) {
         this.title = title;
-        this.image = image;
+        this.content = content;
+        this.imageUrl = image;
     }
 
     public String getTitle() {
@@ -20,19 +22,19 @@ public class Article {
         this.title = title;
     }
 
-    public String getImage() {
-        return image;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
-    @Override
-    public String toString() {
-        return "Article{" +
-                "title='" + title + '\'' +
-                ", image='" + image + '\'' +
-                '}';
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }

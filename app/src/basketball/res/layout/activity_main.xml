@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="20dp"
-            android:background="#1A4D2E">
+            android:background="#FF9F29">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/news_recycler_view"
